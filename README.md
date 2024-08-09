@@ -4,16 +4,16 @@ This repo contains the official PyTorch implementation of the paper: Exemplar-Fr
 
 <span id='environment'/>
 
-### 2. Running AnomalyGPT Demo <a href='#all_catelogue'>[Back to Top]</a>
+### 1. Quick Start
 
 <span id='install_environment'/>
 
-#### 2.1 Environment Installation
+#### 1.1 Environment Installation
 
 Clone the repository locally:
 
 ```
-git clone https://github.com/CASIA-IVA-Lab/AnomalyGPT.git
+git clone https://github.com/woody-panda/ForgeryGPT.git 
 ```
 Install the required packages:
 
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 <span id='download_imagebind_model'/>
 
-#### 2.2 Prepare ImageBind Checkpoint:
+#### 1.2 Prepare ImageBind Checkpoint:
 
 You can download the pre-trained ImageBind model using [this link](https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth). After downloading, put the downloaded file (imagebind_huge.pth) in [[./pretrained_ckpt/imagebind_ckpt/]](./pretrained_ckpt/imagebind_ckpt/) directory. 
 
