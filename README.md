@@ -3,6 +3,7 @@ This repo contains the official PyTorch implementation of the paper: Exemplar-Fr
 
 ### TODO
 - [x] Environment Installation
+- [x] Release model code. 
 * [ ] Release training code. 
 + [ ] Release inference code.
 
