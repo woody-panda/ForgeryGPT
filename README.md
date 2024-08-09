@@ -1,6 +1,12 @@
 ## Introduction
 This repo contains the official PyTorch implementation of the paper: Exemplar-Free Incremental Deepfake Detection.
 
+### TODO
+- [x] Environment Installation
+* [ ] Release training code. 
++ [ ] Release inference code.
+
+
 
 <span id='environment'/>
 
@@ -56,4 +62,3 @@ Please put the downloaded 7B/13B delta weights file (pytorch_model.pt) in the [.
  - Download the datasets: [FF++](https://github.com/ondyari/FaceForensics), [FFIW](https://github.com/tfzhou/FFIW), [Celeb-DF](https://github.com/yuezunli/celeb-deepfakeforensics), [DFDC-P](https://ai.meta.com/datasets/dfdc/) You can also download pre-training data of PandaGPT from [[here]](https://huggingface.co/datasets/openllmplayground/pandagpt_visual_instruction_dataset/tree/main).
  - Data preprocessing. For the all datasets, we use [RetainFace](https://github.com/biubug6/Pytorch_Retinaface) to align the faces. Use the code in directory ./preprocessing to get the preprocessed data. After preprocessing, put the data in the [[./data]](./data/) directory.
 
-The directory of [[./data]](./data/) should look like:
