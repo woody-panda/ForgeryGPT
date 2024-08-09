@@ -1,5 +1,5 @@
-# ForgeryGPT
-ForgeryGPT: Cross-domain Face Forgery Detection using Large Vision-Language Models
+## Introduction
+This repo contains the official PyTorch implementation of the paper: Exemplar-Free Incremental Deepfake Detection.
 
 
 <span id='environment'/>
