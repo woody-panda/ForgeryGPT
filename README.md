@@ -1,5 +1,5 @@
 ## Introduction
-This repo contains the official PyTorch implementation of the paper: Exemplar-Free Incremental Deepfake Detection.
+This repo contains the official PyTorch implementation of the paper: ForgeryGPT: Cross-domain Face Forgery Detection using Large Vision-Language Models.
 
 ### TODO
 - [x] Environment Installation
